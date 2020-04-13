@@ -35,10 +35,9 @@ public :
 
 	void reorganiser(int *T, int j, int n);
 	int supprimer(int *T, int n);
-	void triTas(int *T, int n);
 	int getCJI(int i, int j);
-	void echanger(int *T, int i, int j);
+	void echanger(int *x, int i, int j);
 	vector<int> voisin(int j);
 
-	void debugVect(vector<int> &vecD, vector<int> &vecT, vector<int> &vecI);
+	void debugVect(vector<int> &vecD, vector<int> &vecT, vector<int> &vecI, vector<int> &vecPere);
 };
